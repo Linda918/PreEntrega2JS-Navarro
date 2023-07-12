@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenida{
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+/* Pie de página*/
+
+footer {
+    min-height: 500 px;
+    background-color: #ff0000;
+    margin-top: 20px;
+}
+
+.footer-texto{
+    font-size: 1rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    margin-top: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i{
+    color: #ffffff;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color: #ffffff;
+    border: 2px solid #0059ff;
+}
+
+.iconos-redes-sociales a:hover i{
+    color: #000000;
+}
